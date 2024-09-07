@@ -2,8 +2,8 @@ import replicate
 import os
 import streamlit as st
 
-os.environ["REPLICATE_API_TOKEN"]
 st.set_page_config(page_title="🦙💬 Llama 2 Chatbot")
+os.environ["REPLICATE_API_TOKEN"]
 
 with st.sidebar:
     st.title("🦙💬 Llama 2 Chatbot")
